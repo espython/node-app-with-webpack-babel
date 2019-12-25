@@ -1,0 +1,33 @@
+{
+  "name": "node-with-babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack --watch",
+    "build": "webpack -p --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "nodemon-webpack-plugin": "^4.2.2",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
